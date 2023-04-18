@@ -1,3 +1,4 @@
+import Contact from './components/Contact.js';
 import Work from './components/Work.js';
 import Skills from './components/Skills.js';
 import About from './components/About.js';
@@ -12,6 +13,7 @@ function App() {
       <About />
       <Skills />
       <Work />
+      <Contact />
     </div>
   );
 }
