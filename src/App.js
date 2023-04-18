@@ -1,3 +1,4 @@
+import Work from './components/Work.js';
 import Skills from './components/Skills.js';
 import About from './components/About.js';
 import Home from './components/Home.js';
@@ -10,6 +11,7 @@ function App() {
       <Home />
       <About />
       <Skills />
+      <Work />
     </div>
   );
 }
